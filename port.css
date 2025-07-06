@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: white;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2a9d8f;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #2a9d8f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#resume p {
+  text-align: center;
+}
+
+#resume a {
+  text-decoration: none;
+  color: #2a9d8f;
+  font-weight: bold;
+}
+
+#contact {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
